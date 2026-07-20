@@ -1,0 +1,41 @@
+.main-banner2 {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+    background: url(../../imgs/banner2.svg) center/cover no-repeat;
+    border-radius: 32px;
+
+    padding: 0 70px;
+
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.main-banner2 h2 {
+    color: var(--primary-font-color_light);
+    max-width: 427px;
+
+    margin-top: 55px;
+}
+
+.banner2-title {
+    margin-top: 100px;
+    margin-bottom: 100px;
+
+    max-width: 483px;
+}
+
+.banner2-title span {
+    color: var(--primary-font-color_light);
+    margin-bottom: 32px;
+}
+
+.banner2-title button {
+    color: var(--primary-font-color);
+    background-color: var(--bg-color);
+}
+
+.banner2-title button:hover {
+    background-color: var(--placeholder-color);
+}

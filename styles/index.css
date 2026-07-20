@@ -41,7 +41,7 @@ main {
         text-align: center;
     }
 
-    .main-hero {
+    .main-hero, .main-team {
         justify-content: center;
     }
 }
@@ -49,5 +49,13 @@ main {
 @media (max-width: 400px) {
     .main-hero img {
         display: none;
+    }
+
+    .footer-contacts div {
+        gap: 20px;
+    }
+
+    .main-banner2 {
+        padding: 0 30px;
     }
 }
