@@ -1,0 +1,121 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+    font-family: "Alexandria", sans-serif;
+    color: var(--primary-font-color);
+    text-decoration: none;
+    font-weight: 500;
+
+    max-width: 100%;
+}
+
+/*  */
+
+h1,h2,h3,h4,h5,h6, button, a{
+    text-transform: capitalize;
+}
+
+section {
+    padding: 0 120px;
+}
+
+/*  */
+
+button {
+    font-size: 24px;
+
+    background-color: var(--accent-color);
+    color: var(--primary-font-color_light);
+
+    border: none;
+    border-radius: 9999px;
+    padding: 16px 24px;
+
+    transition: background-color 0.3s ease-out;
+}
+
+button:hover {
+    background-color: var(--accent-color_active);
+}
+
+form button {
+    font-size: 18px;
+}
+
+form * {
+    min-width: 0;
+}
+
+button[mod="small"] {
+    font-size: 16px;
+    font-weight: 400;
+}
+
+/*  */
+
+form {
+    display: flex;
+}
+
+input {
+    border: none;
+    border-radius: 9999px;
+
+    font-size: 18px;
+    background-color: var(--primary-color);
+
+    padding: 20px 18px;
+    max-width: 100%;
+
+    flex-grow: 1;
+}
+
+input[mod="small"] {
+    font-size: 16px;
+}
+
+input::placeholder {
+    color: var(--placeholder-font-color);
+}
+
+/*  */
+
+h1 {
+    font-size: 96px;
+}
+
+h2 {
+    font-size: 64px;
+}
+
+h2[mod="big"] {
+    font-weight: 600;
+}
+
+h4 {
+    font-size: 28px;
+}
+
+span {
+    font-size: 18px;
+    color: var(--secondary-font-color);
+    display: block;
+}
+
+span[mod="small"] {
+    font-size: 16px;
+}
+
+span[mod="big"] {
+    font-size: 20px;
+}
+
+a:hover {
+    color: var(--accent-color);
+}
+
+a[mod="btn"] {
+    border-radius: 9999px;
+}

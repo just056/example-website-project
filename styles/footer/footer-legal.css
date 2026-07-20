@@ -1,0 +1,31 @@
+.footer-legal {
+    background-color: var(--secondary-color);
+    gap: 50px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-legal * {
+    font-size: 14px;
+    color: var(--primary-font-color_light);
+}
+
+.legal-links {
+    margin: 50px 0;
+    display: flex;
+    flex-direction: row;
+    gap: 25px;
+}
+
+.legal-links a {
+    text-align: center;
+    text-transform: initial;
+}
+
+.legal-links a:hover {
+    text-decoration: underline;
+    color: var(--primary-font-color_light);
+}

@@ -1,0 +1,13 @@
+:root {
+    --bg-color: #FFFFFF;
+    --primary-color: #FAFAFA;
+    --secondary-color: #000000;
+    --placeholder-color: #AAAAAA;
+    --accent-color: #3461FF;
+    --accent-color_active: #2546bf;
+
+    --primary-font-color: #000000;
+    --primary-font-color_light: #FFFFFF;
+    --secondary-font-color: rgba(0,0,0,0.6);
+    --placeholder-font-color: #AAAAAA;
+}

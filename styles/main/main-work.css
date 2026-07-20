@@ -1,0 +1,37 @@
+.main-work {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-work > * {
+    text-align: center;
+}
+
+.main-work h2 {
+    margin-top: 120px;
+    margin-bottom: 20px;
+}
+
+.main-work span {
+    margin-bottom: 52px;
+}
+
+.work-examples {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+
+    margin-bottom: 56px;
+}
+
+.work-examples article h3 {
+    margin-top: 16px;
+}
+
+.main-work a {
+    margin-bottom: 125px;
+}

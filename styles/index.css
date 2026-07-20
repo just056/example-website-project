@@ -1,0 +1,53 @@
+@import url(fonts.css);
+@import url(variables.css);
+@import url(null.css);
+
+@import url(header/header-navbar.css);
+
+@import url(main/main-hero.css);
+@import url(main/main-commitments.css);
+@import url(main/main-howitworks.css);
+@import url(main/main-work.css);
+@import url(main/main-banner1.css);
+@import url(main/main-team.css);
+@import url(main/main-reviews.css);
+@import url(main/main-banner2.css);
+@import url(main/main-help.css);
+
+@import url(footer/footer-footer.css);
+@import url(footer/footer-legal.css);
+
+/*  */
+
+main {
+    padding-top: 88px;
+}
+
+@media (max-width: 1400px) {
+    header {
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+
+    section {
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+}
+
+@media (max-width:1205px) {
+    .main-hero h1,
+    .main-hero span {
+        text-align: center;
+    }
+
+    .main-hero {
+        justify-content: center;
+    }
+}
+
+@media (max-width: 400px) {
+    .main-hero img {
+        display: none;
+    }
+}
