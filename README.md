@@ -7,7 +7,7 @@ built based on Figma Template "Marketing Agency Landing Page" by Aqsath Faza
 * BEM is not used everywhere. In some cases, where BEM could be used, .class element was utilized for convinience while coding
 * Expecting the width to be atleast 360px, the site is fully adaptible
 * The main language of the website is English to mantain proper font sizing
-* Most of the errors shown upon checking with W3C Validator are inteded by design or structure
+* All of the errors shown upon checking with W3C Validator are inteded by design or structure
 
 * The burger menu is fully functional while being written with HTML, CSS, and no JS
 
