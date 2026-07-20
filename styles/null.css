@@ -115,7 +115,3 @@ span[mod="big"] {
 a:hover {
     color: var(--accent-color);
 }
-
-a[mod="btn"] {
-    border-radius: 9999px;
-}

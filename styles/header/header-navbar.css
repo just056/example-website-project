@@ -58,6 +58,8 @@ header * {
     width: 18px;
     height: 2px;
 
+    display: block;
+
     background-color: var(--primary-font-color_light);
     transition: 0.3s;
 }
