@@ -8,4 +8,6 @@ built based on Figma Template "Marketing Agency Landing Page" by Aqsath Faza
 * Expecting the width to be atleast 360px, the site is fully adaptible
 * The main language of the website is English to mantain proper font sizing
 
+* The burger menu is fully functional while being written with HTML, CSS, and no JS
+
 ### GitHub is apparently down when I'm publishing the site
